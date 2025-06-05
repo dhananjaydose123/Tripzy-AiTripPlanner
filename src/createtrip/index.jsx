@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import LocationAutocomplete from "./autocomplete";
 import {
   AI_PROMPT,
@@ -7,7 +7,7 @@ import {
 } from "../constants/options";
 import { Button } from "../components/ui/button";
 import { toast } from "sonner";
-import { chatSession } from "@/service/AIModel";
+import { chatSession } from "@/service/AiModel";
 import {
   Dialog,
   DialogContent,
