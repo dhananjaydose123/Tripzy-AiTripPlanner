@@ -60,7 +60,7 @@ const Header = () => {
 
   return (
     <div className="p-3 shadow-sm flex justify-between items-center px-5">
-      <img src="../public/logo.svg" alt="logo" className="w-30" />
+      <img src="/logo.svg" alt="logo" className="w-30" />
       <div>
         {user ? (
           <div className="flex items-center gap-3">
